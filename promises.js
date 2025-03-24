@@ -68,7 +68,7 @@ async function createPost(post) {
 
 async function deletePost(postId) {
   try {
-    const response = await fetch(`https://api.example.com/posts/${postId}`, {
+    const response = await fetch(`https://dummy.restapiexample.com/api/v1/create}`, {
       method: "DELETE",
     });
     if (response.ok) {
